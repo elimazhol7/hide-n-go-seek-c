@@ -1,8 +1,4 @@
-=========================================================
-              Name Searching Program (NSP)
-=========================================================
-
-PROGRAM OVERVIEW
+Hide 'n' Go Seek
 ---------------------------------------------------------
 This program allows a user to search for a specific name
 within a file that contains a list of names (one per line).
