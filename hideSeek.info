@@ -1,0 +1,12 @@
+Elima	Zholdubaeva
+CSC122
+
+Activity: Hide 'n' Go Seek
+Level: 1.5
+
+Program Description:
+-------------------
+This program allows the user to search for a specific name in a file containing a list of names (one per line). 
+The search is case-insensitive and reports the position of the name in the file with the appropriate ordinal (e.g., 1st, 2nd, 3rd). 
+The program is designed to handle large files without storing all names in memory. It also handles errors when opening files and informs the user if the desired name is not found.
+Files are processed line by line to accommodate any number of names, and all functionality is separated into functions to improve readability and maintainability.
