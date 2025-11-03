@@ -31,8 +31,3 @@ Run the program in the terminal:
 
     ./namesearch.out
 
-When prompted:
-1. Enter the name of your data file (e.g., names.txt).
-2. Enter the name you wish to search for (case-insensitive).
-
----------------------------------------------------------
