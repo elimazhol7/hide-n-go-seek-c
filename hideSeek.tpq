@@ -1,0 +1,15 @@
+1. The program reads the file **line by line** using a while loop.
+This allows the program to process files of any size, including very large files, 
+without storing all the names in memory. The program does not rely on knowing the total number of
+names ahead of time.
+2. A while loop is used with the condition getline(file, line). 
+This reads each line sequentially until the end of the file (EOF) is reached, 
+ensuring that every name is checked exactly once.
+3. The program uses a boolean flag (‘found’) initialized to ‘false’. 
+If the target name is not found after checking all lines, the program prints a message indicating that 
+the name was not found. This ensures the user receives feedback even when the search is unsuccessful.
+4. The program assumes one name per line. If multiple names are present on a single line, the 
+program treats the entire line as a single name. Therefore, it will not correctly find individual 
+names if they share a line. This behavior aligns with the lab specification, which assumes one name per line.
+
+
