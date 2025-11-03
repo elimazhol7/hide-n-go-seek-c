@@ -36,5 +36,3 @@ When prompted:
 2. Enter the name you wish to search for (case-insensitive).
 
 ---------------------------------------------------------
-END OF README
-=========================================================
