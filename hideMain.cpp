@@ -1,4 +1,5 @@
-#include "namesearch.h"
+#include "nameSearch.h"
+#include <limits>
 
 int main() {
     cout << "\n\tWelcome to the Name Searching Program!!!\n\n";
@@ -6,6 +7,7 @@ int main() {
     ifstream file = openFile();
 
     cout << "\nWhat name would you like to find in this file? ";
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');  // clear input buffer
     string targetName;
     getline(cin, targetName);
 
